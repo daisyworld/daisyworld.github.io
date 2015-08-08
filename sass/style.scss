@@ -38,6 +38,38 @@ header{
     }
 }
 
+#dswd1{
+    header{
+        background-image: url(/images/dswd1/head.jpg);
+        text-align: left;
+        p{
+            padding-left: 60px;
+            &.logo{
+                padding-top: 177px;
+            }
+        }
+        h1{
+            padding-left: 60px;
+        }
+    }
+}
+#dswd2{
+    header{
+        background-image: url(/images/dswd2/head.jpg);
+        text-align: right;
+        color:#E5004F;
+        p{
+            padding-right: 60px;
+            &.logo{
+                padding-top: 177px;
+            }
+        }
+        h1{
+            padding-right: 60px;
+        }
+    }
+}
+
 a{
     color: #232584;
     text-decoration: none;
@@ -46,6 +78,9 @@ a{
     }
     &.highlight{
         color:#E5004F;
+    }
+    &.current{
+        color:#999;
     }
 }
 
@@ -62,13 +97,32 @@ article,footer{
         border-top: 1px solid #DDD;
         border-bottom: 1px solid #DDD;
     }
+    &#product{
+        margin-top: 80px;
+    }
+    &#cuts{
+        width: 960px;
+        ul{
+            li{
+                margin-bottom: 40px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+
+            }
+        }
+    }
     h2{
         color:#333;
         margin-bottom: 40px;
         font-weight: 400
     }
     p{
-      line-height: 1.5;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        &:last-child{
+            margin-bottom: 40px;
+        }
     }
     ul{
         line-height: 1.0;
@@ -81,7 +135,7 @@ article,footer{
                 margin-bottom: 0px;
             }
         }
-        &.member{
+        &.member,&.spec,&.detail{
             margin-top: 60px;
             li {
                 margin-bottom: 20px;
