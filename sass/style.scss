@@ -134,6 +134,9 @@ article{
             margin-top: 40px;
             li {
                 margin-bottom: 20px;
+                &.disable{
+                    color:#999
+                }
             }
             &:last-child{
                 margin-bottom: 0px;
