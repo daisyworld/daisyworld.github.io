@@ -1,15 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  -webkit-text-size-adjust: none;
-  width: 100%;
-  color: #666;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: 'Neue Haas Unica W01',Helvetica, Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    -webkit-text-size-adjust: none;
+    width: 100%;
+    color: #666;
+    font-size: 16px;
+    font-family: 'Neue Haas Unica W01',Helvetica, Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;
 }
 
 header{
@@ -54,27 +53,40 @@ li{
     list-style: none;
 }
 
-
-
 article,footer{
-    width: 960px;
+    width: 840px;
     margin: 0px auto 80px auto;
     &#welcome{
-        width: 800px;
+        width: 660px;
         padding: 60px 80px;
         border-top: 1px solid #DDD;
         border-bottom: 1px solid #DDD;
     }
     h2{
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+        font-weight: 400 Normal
+    }
+    p{
+      line-height: 1.5;
     }
     ul{
+        line-height: 1.0;
         &.links{
-            margin-top: 30px;
+            margin-top: 40px;
+            li {
+                margin-bottom: 20px;
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
         }
         &.member{
-            margin-top: 50px;
+            margin-top: 60px;
             li {
+                margin-bottom: 20px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
                 div{
                     display: inline-block;
                     &.name{
@@ -94,18 +106,19 @@ article,footer{
 }
 
 nav{
-    width: 960px;
+    width: 840px;
     margin: 40px auto;
+    overflow: hidden;
     ul{
-        position:relative; /* 相対配置 */
-        left:50%; /* ボタン全体を中央によせる */
-        float:left; /* floatでリストを浮遊させる */
+        position:relative;
+        left:50%;
+        float:left;
         li{
-            position:relative; /* 相対配置 */
-            left:-50%; /* ボタンの幅の半分だけ左に寄せる */
-            float:left; /* ボタン同士を回りこませる */
+            line-height: 1.0;
+            position:relative;
+            left:-50%;
+            float:left;
             margin-right: 40px;
-
             &:last-child{
                 margin-right: 0px;
             }
@@ -114,11 +127,11 @@ nav{
 }
 
 footer{
-    width: 960px;
-    margin: 40px auto 0px auto;
+    width: 840px;
+    margin: 0px auto 0px auto;
     text-align: center;
     font-size: 12px;
-    padding: 40px 0px;
+    padding: 40px 0px 80px 0px;
     border-top: 1px solid #DDD;
     font-weight: 700;
 }
