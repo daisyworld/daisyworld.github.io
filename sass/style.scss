@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  width: 100%;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Neue Haas Unica W01',Helvetica, Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: url(/images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #232584;
+    p{
+        &.logo{
+            padding-top: 173px;
+            height: 145px;
+            margin-bottom: 40px;
+        }
+    }
+    h1{
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 1.0;
+        font-weight: 300;
+        span{
+            margin-top: 20px;
+            display: block;
+        }
+    }
+}
+
+a{
+    color: #232584;
+    &:hover{
+        opacity: 0.5
+    }
+    &.highlight{
+        color:#E5004F;
+    }
+}
+
+li{
+    list-style: none;
+}
+
+
+
+article,footer{
+    width: 960px;
+    margin: 0px auto 80px auto;
+    &#welcome{
+        width: 800px;
+        padding: 60px 80px;
+        border-top: 1px solid #DDD;
+        border-bottom: 1px solid #DDD;
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+    ul{
+        &.links{
+            margin-top: 30px;
+        }
+        &.member{
+            margin-top: 50px;
+            li {
+                div{
+                    display: inline-block;
+                    &.name{
+                        width: 200px;
+                    }
+                    &.url{
+                        width: 200px;
+                    }
+                    &.role{
+                        width: 7
+                        00px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+nav{
+    width: 960px;
+    margin: 40px auto;
+    ul{
+        position:relative; /* 相対配置 */
+        left:50%; /* ボタン全体を中央によせる */
+        float:left; /* floatでリストを浮遊させる */
+        li{
+            position:relative; /* 相対配置 */
+            left:-50%; /* ボタンの幅の半分だけ左に寄せる */
+            float:left; /* ボタン同士を回りこませる */
+            margin-right: 40px;
+
+            &:last-child{
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+footer{
+    width: 960px;
+    margin: 40px auto 0px auto;
+    text-align: center;
+    font-size: 12px;
+    padding: 40px 0px;
+    border-top: 1px solid #DDD;
+    font-weight: 700;
+}
+
+/*
+clearfix
+ */
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
