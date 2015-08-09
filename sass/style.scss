@@ -56,16 +56,14 @@ header{
 #dswd2{
     header{
         background-image: url(/images/dswd2/head.jpg);
-        text-align: right;
+        text-align: center;
         color:#E5004F;
         p{
-            padding-right: 60px;
             &.logo{
                 padding-top: 177px;
             }
         }
         h1{
-            padding-right: 60px;
         }
     }
 }
