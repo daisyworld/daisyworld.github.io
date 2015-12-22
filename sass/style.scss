@@ -68,6 +68,20 @@ header{
         }
     }
 }
+#dswd3{
+    header{
+        background-image: url(/images/dswd3/head.jpg);
+        text-align: center;
+        color:#FFF;
+        p{
+            &.logo{
+                padding-top: 177px;
+            }
+        }
+        h1{
+        }
+    }
+}
 
 a{
     color: #232584;
