@@ -83,6 +83,23 @@ header{
     }
 }
 
+#dswd4{
+    header{
+        background-image: url(/images/dswd4/head.jpg);
+        text-align: left;
+        color:#FFF;
+        p{
+            padding-left: 60px;
+            &.logo{
+                padding-top: 177px;
+            }
+        }
+        h1{
+            padding-left: 60px;
+        }
+    }
+}
+
 a{
     color: #232584;
     text-decoration: none;
