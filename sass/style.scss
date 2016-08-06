@@ -204,6 +204,7 @@ article{
                     vertical-align: top;
                     line-height: 1.8;
                     display: inline-block;
+                    // width: 655px;
                     &.name{
                         width: 180px;
                     }
@@ -213,6 +214,15 @@ article{
                 }
             }
         }
+        &.spec{
+            li {
+                div{
+                    width: 655px;
+                }
+            }
+        }
+
+
     }
 }
 
