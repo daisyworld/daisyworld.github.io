@@ -124,6 +124,9 @@ a{
     &:hover{
         opacity: 0.5
     }
+    &:visited{
+        color:#999;
+    }
     &.highlight{
         color:#E5004F;
     }
@@ -206,10 +209,10 @@ article{
                     display: inline-block;
                     // width: 655px;
                     &.name{
-                        width: 180px;
+                        width: 190px;
                     }
                     &.url{
-                        width: 180px;
+                        width: 190px;
                     }
                 }
             }
@@ -217,7 +220,7 @@ article{
         &.spec{
             li {
                 div{
-                    width: 655px;
+                    width: 645px;
                 }
             }
         }
