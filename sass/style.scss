@@ -100,12 +100,34 @@ header{
     }
 }
 
+#dswd5{
+    header{
+        background-image: url(/images/dswd5/head.jpg);
+        text-align: left;
+        color:#232584;
+        p{
+            padding-left: 60px;
+            &.logo{
+                padding-top: 40px;
+            }
+        }
+        h1{
+            padding-top: 40px;
+            padding-left: 60px;
+        }
+    }
+}
+
+
 a{
     color: #232584;
     text-decoration: none;
     &:hover{
         opacity: 0.5
     }
+    // &:visited{
+    //     color:#999;
+    // }
     &.highlight{
         color:#E5004F;
     }
@@ -186,15 +208,25 @@ article{
                     vertical-align: top;
                     line-height: 1.8;
                     display: inline-block;
+                    // width: 655px;
                     &.name{
-                        width: 180px;
+                        width: 190px;
                     }
                     &.url{
-                        width: 180px;
+                        width: 190px;
                     }
                 }
             }
         }
+        &.spec{
+            li {
+                div{
+                    width: 645px;
+                }
+            }
+        }
+
+
     }
 }
 
@@ -211,7 +243,7 @@ nav{
             position:relative;
             left:-50%;
             float:left;
-            margin-right: 40px;
+            margin-right: 17px;
             &:last-child{
                 margin-right: 0px;
             }
