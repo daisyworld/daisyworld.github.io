@@ -103,7 +103,7 @@ header {
     padding-left: 60px; }
 
 #dswd8 header {
-  width: 100vw;
+  width: 100%;
   height: calc(100vw / 2000 * 938);
   background-image: url(/images/dswd8/head.jpg);
   text-align: center;
