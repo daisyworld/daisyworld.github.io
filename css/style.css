@@ -102,6 +102,18 @@ header {
     padding-top: 40px;
     padding-left: 60px; }
 
+#dswd8 header {
+  width: 100vw;
+  height: calc(100vw / 2000 * 938);
+  background-image: url(/images/dswd8/head.jpg);
+  text-align: center;
+  color: #232584; }
+  #dswd8 header p.logo {
+    text-align: center;
+    padding-top: 40px; }
+  #dswd8 header h1 {
+    padding-top: 5vw; }
+
 a {
   color: #232584;
   text-decoration: none; }
