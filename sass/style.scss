@@ -154,6 +154,27 @@ header{
     }
 }
 
+#dswd8{
+    header{
+        width: 100vw;
+        height: calc(100vw / 2000 * 938);
+        background-image: url(/images/dswd8/head.jpg);
+        text-align: center;
+        color:#232584;
+        p{
+            // padding-right: 60px;
+            &.logo{
+                text-align: center;
+                padding-top: 40px;
+            }
+        }
+        h1{
+            padding-top: 5vw;
+            // padding-right: 60px;
+        }
+    }
+}
+
 
 
 a{
